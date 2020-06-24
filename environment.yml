@@ -1,0 +1,37 @@
+name: olaux
+channels:
+    - https://conda.anaconda.org/kne
+    - https://conda.anaconda.org/tlatorre
+    - https://conda.anaconda.org/cjs14
+    - https://conda.anaconda.org/menpo
+    - jjhelmus
+dependencies:
+    - python==3.5.4
+    - numpy<1.17
+    - scipy
+    - flask
+    - path.py
+    - matplotlib
+    - scikit-learn
+    - plotly
+    - joblib
+    - dm_control
+    - cudnn==7.6.5
+    - pip:
+        - python-dateutil
+        - opencv-python
+        - mpi4py==3.0.0
+        - Pillow
+        - boto3
+        - PyOpenGL
+        - mujoco-py<1.50.2,>=1.50.1
+        - cached_property
+        - Cython
+        - git+https://github.com/plotly/plotly.py.git@2594076e29584ede2d09f2aa40a8a195b3f3fc66#egg=plotly
+        - gym==0.10.9
+        - git+https://github.com/neocxi/prettytensor.git
+        - chainer==1.18.0
+        - tensorflow==1.14.0
+        - tensorflow-gpu==1.14.0
+        - dominate
+        - scikit-image
