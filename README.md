@@ -67,7 +67,7 @@ url = {http://papers.nips.cc/paper/8724-adaptive-auxiliary-task-weighting-for-re
 ```
 
 ## Caveat
-Unfortunately, due to a series of accidents with our computing cluster and local computing machines, the original code used to create the plots in the paper was lost. Furthermore, due to complicate immigration situations, one of the authors who contribute siginificantly to the original code cannot legally work on anything related to this paper at the moment. 
+Unfortunately, due to a series of accidents with our computing cluster and local computing machines, the original code used to create the plots in the paper was lost. Furthermore, due to complicated immigration situations, one of the authors who contribute siginificantly to the original code cannot legally work on anything related to this paper at the moment. 
 
 This repository is a re-implementation of OL-AUX by one of the authors that mostly reproduces the original results. Please refer to the plots in `./results/` for the reproduced results. However, due to the issues mentioned above, many hyper-parameters and implementation details in this repository may differ from the original code in the paper. We will potentially release another version of the code once the other author is able to legally work again.
 
